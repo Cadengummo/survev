@@ -1,38 +1,8 @@
 import type { Vec2 } from "../utils/v2";
-import { Main } from "./maps/baseDefs";
 import { Cobalt } from "./maps/cobaltDefs";
-import { Desert } from "./maps/desertDefs";
-import { Faction } from "./maps/factionDefs";
-import { Halloween } from "./maps/halloweenDefs";
-import { MainSpring } from "./maps/mainSpringDefs";
-import { MainSummer } from "./maps/mainSummerDefs";
-import { Potato } from "./maps/potatoDefs";
-import { PotatoSpring } from "./maps/potatoSpringDefs";
-import { Savannah } from "./maps/savannahDefs";
-import { Snow } from "./maps/snowDefs";
-import { Turkey } from "./maps/turkeyDefs";
-import { Woods } from "./maps/woodsDefs";
-import { WoodsSnow } from "./maps/woodsSnowDefs";
-import { WoodsSpring } from "./maps/woodsSpringDefs";
-import { WoodsSummer } from "./maps/woodsSummerDefs";
 
 export const MapDefs = {
-    main: Main,
-    main_spring: MainSpring,
-    main_summer: MainSummer,
-    desert: Desert,
-    faction: Faction,
-    halloween: Halloween,
-    potato: Potato,
-    potato_spring: PotatoSpring,
-    snow: Snow,
-    woods: Woods,
-    woods_snow: WoodsSnow,
-    woods_spring: WoodsSpring,
-    woods_summer: WoodsSummer,
-    savannah: Savannah,
     cobalt: Cobalt,
-    turkey: Turkey,
 } satisfies Record<string, MapDef>;
 
 export type Atlas = "gradient" | "loadout" | "shared" | "main";

@@ -67,7 +67,7 @@ export class Map {
     mapName = "";
     mapDef = {} as MapDef;
     factionMode = false;
-    perkMode = false;
+    perkMode = true;
     turkeyMode = false;
     seed = 0;
     width = 0;

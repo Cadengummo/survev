@@ -1,5 +1,5 @@
 import * as PIXI from "pixi.js-legacy";
-import { type MapDef, MapDefs } from "../../shared/defs/mapDefs";
+import { type MapDef, cobalt } from "../../shared/defs/maps/cobaltdefs.ts";
 import { MapObjectDefs } from "../../shared/defs/mapObjectDefs";
 import type { BuildingDef, ObstacleDef } from "../../shared/defs/mapObjectsTyping";
 import { GameConfig } from "../../shared/gameConfig";

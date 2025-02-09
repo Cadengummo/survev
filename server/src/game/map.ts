@@ -1,4 +1,4 @@
-import { type MapDef, MapDefs } from "../../../shared/defs/mapDefs";
+import { type MapDef, cobalt } from "../../../shared/defs/maps/cobaltdefs.ts";
 import { MapObjectDefs } from "../../../shared/defs/mapObjectDefs";
 import type {
     BuildingDef,

@@ -109,11 +109,11 @@ function createWoodBarrel<T extends ObstacleDef>(params: Partial<T>): T {
         height: 0.5,
         collidable: true,
         destructible: true,
-        health: 20,
+        health: 2,
         hitParticle: "outhouseChip",
         explodeParticle: "barrelPlank",
         reflectBullets: false,
-        loot: [tierLoot("tier_world", 1, 1)],
+        loot: [tierLoot("tier_snipers", 1, 1)],
         map: { display: true, color: 11235106, scale: 1 },
         terrain: { grass: true, beach: true },
         img: {
@@ -179,7 +179,7 @@ function createBookShelf<T extends ObstacleDef>(params: Partial<T>): T {
         hitParticle: "woodChip",
         explodeParticle: ["woodPlank", "book"],
         reflectBullets: false,
-        loot: [tierLoot("tier_world", 1, 1)],
+        loot: [tierLoot("tier_SV98", 1, 1)],
         map: { display: false, color: 6697728, scale: 0.875 },
         terrain: { grass: false, beach: true },
         img: {
@@ -533,7 +533,7 @@ function createChest<T extends ObstacleDef>(e: Partial<T>): T {
         hitParticle: "woodChip",
         explodeParticle: "woodPlank",
         reflectBullets: false,
-        loot: [tierLoot("tier_chest", 3, 4)],
+        loot: [tierLoot("tier_perks", 3, 4)],
         map: { display: false, color: 6697728, scale: 0.875 },
         terrain: { grass: false, beach: true },
         img: {
